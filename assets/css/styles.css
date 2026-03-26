@@ -1,5 +1,16 @@
 /* styles.css */
 
-* {
+body {
+	margin: 1rem;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+}
+
+.grid-container {
+	display:grid;
+	grid-template-columns: lfr lfr lfr; gap: 2rem;
+}
 	font-family: Arial;
 }
